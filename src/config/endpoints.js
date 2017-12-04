@@ -1,0 +1,1 @@
+export const realyEndPoint = 'https://api.graph.cool/relay/v1/cjaph3o9b0eyp0170ykfv330u'

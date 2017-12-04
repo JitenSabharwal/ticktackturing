@@ -1,5 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { 
+  BrowserRouter as Router 
+}   from 'react-router-dom'
+// import history from './routes/history'
+import Routes from './routes'
 
-ReactDOM.render(<div><h1>Hello World</h1></div>, 
-    document.getElementById('root'));
+const elem = document.getElementById('root')
+ReactDOM.render(
+  <Router>
+      {Routes}  
+  </Router>,
+  elem,
+)
